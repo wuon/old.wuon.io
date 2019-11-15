@@ -1,5 +1,5 @@
 <template>
-  <div class="py-5 row">
+  <div class="py-5 row footer">
     <div class="col-md-2 col-6">
       <p>
         <b>DIRECTORY</b>
@@ -7,9 +7,6 @@
       <ul class="list-unstyled font-big-1-2 font-weight-light">
         <li>
           <g-link to="/">Home</g-link>
-        </li>
-        <li>
-          <g-link to="/about">About</g-link>
         </li>
         <li>
           <g-link to="/blog">Blog</g-link>
@@ -58,9 +55,30 @@
 
 <script>
 export default {
-  name: "Footer",
+  name: "Footer"
 };
 </script>
 
 <style scoped>
+.footer {
+  background-image: url('../assets/surburb.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 250px;
+}
+
+a {
+  color: #808080;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    background-image: none;
+  }
+}
 </style>
