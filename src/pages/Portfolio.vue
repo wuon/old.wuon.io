@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div>
-      <h1 class="display-2 serif-font-face">Portfolio</h1>
+      <h1 class="display-2 serif-font-face">Photography</h1>
         <div>
             <section class="card-columns">
                 <Card  v-for="edge in $page.allInstagramPhoto.edges" :key="edge.node.id" :card="edge.node"/>
@@ -29,12 +29,20 @@
         }
     }
 </page-query>
+
 <script>
     import Card from "../components/portfolio/Card";
     export default {
         components: {Card},
         metaInfo: {
-            title: 'Portfolio'
+            title: 'Photography'
         }
     }
 </script>
+
+<style scoped>
+    .card-columns{
+        column-count: 1;
+        -webkit-column-count: 1;
+    }
+</style>
