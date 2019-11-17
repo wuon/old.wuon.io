@@ -9,7 +9,6 @@ module.exports = {
     siteDescription: 'wuon\'s personal website :)',
     plugins: [
         {
-            // Create posts from markdown files
             use: '@gridsome/source-filesystem',
             options: {
                 typeName: 'Post',
@@ -26,7 +25,6 @@ module.exports = {
         }
     ],
     transformers: {
-        //Add markdown support to all file-system sources
         remark: {
             externalLinksTarget: '_blank',
             externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
