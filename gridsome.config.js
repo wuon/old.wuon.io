@@ -1,13 +1,12 @@
-// This is where project configuration and plugin options are located. 
+// This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-    siteName: 'Gridsome Blog Starter',
-    siteDescription: 'A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.',
-
+    siteName: 'wuon.io',
+    siteDescription: 'wuon\'s personal website :)',
     plugins: [
         {
             // Create posts from markdown files
@@ -21,12 +20,11 @@ module.exports = {
         {
             use: '@zefman/gridsome-source-instagram',
             options: {
-                username: 'divan_raj', // Instagram username
+                username: 'danielktwu', // Instagram username
                 typeName: 'InstagramPhoto' // The GraphQL type you want the photos to be added under. Defaults to InstagramPhoto
             }
         }
     ],
-
     transformers: {
         //Add markdown support to all file-system sources
         remark: {

@@ -1,66 +1,88 @@
 <template>
   <Layout>
-
-    <div class="row">
+    <div class="row center">
       <div class="col-md-4">
-        <h1 class="display-4 serif-font-face">Super Duper Creative Agency</h1>
-        <p class="font-big-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
-        <p class="font-big-1">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-        <p class="font-big-1"><a href="#" class="text-dark font-weight-bold"><u>hello@badman.com</u></a></p>
+        <h1 class="display-4 font-weight-bold">The story so far</h1>
+        <p class="font-big-1">
+          Currently a 3rd year student with 1.5
+          years of industry experience and 2 years
+          of startup culture. I have participated in
+          15+ hackathons, winning 7 titles
+          including Canada’s largest, Hack the
+          North, in 2016. I consider myself a
+          learning machine and can approach any
+          problem intuitively. I am designer,
+          developer, and most importantly a doer.
+        </p>
+        <p class="font-big-1">
+          <a href="#" class="email font-weight-bold">
+            <u>Read more</u>
+            <font-awesome icon="long-arrow-alt-right" class="arrow"/>
+          </a>
+        </p>
       </div>
       <div class="col-md-8">
-        <Carousel :slides="slides" />
+        <img class="ideation-graphic" src="../assets/bench.svg"/>
       </div>
     </div>
     <div class="p-5 bg-light my-3">
-      <h1 class="serif-font-face">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</h1>
+      <h1
+        class="serif-font-face"
+      >“To try and fail is at least to learn; to fail to try is to suffer the inestimable loss of what might have been.”</h1>
+      <div class="pt-5 text-muted small author">
+        - Brian Christian, Algorithms To Live By: The Computer Science of Human Decisions
+      </div>
     </div>
-
   </Layout>
 </template>
 
 <script>
-    import Carousel from "../components/home/Carousel";
-    export default {
-        components: {Carousel},
-        metaInfo: {
-            title: 'Home'
-        },
-        data() {
-            return {
-                slides: [
-                    {
-                        type: 'Development',
-                        title: 'New Dev Work',
-                        src: "https://source.unsplash.com/random/800x900/?HTML",
-                        description: "Sometime we can feel a bit dull in the morning and we need to produce our own sunshine energy."
-                    },
-                    {
-                        type: 'Design',
-                        title: 'New UI Design',
-                        src: "https://source.unsplash.com/random/800x900/?interface",
-                        description: "So here are 17 wonderful, short positive quotes that my amazing colleague Hayley has collected for you."
-                    },
-                    {
-                        type: 'Development',
-                        title: 'Update on New Feature',
-                        src: "https://source.unsplash.com/random/800x900/?code",
-                        description: "Either way, I think we can all do with a bit more spark to help us perform miracles and live in joy."
-                    },
-                    {
-                        type: 'Development',
-                        title: 'Bug Fix',
-                        src: "https://source.unsplash.com/random/800x900/?javascript",
-                        description: "We also have a powerful and proven Law of Attraction gift which you can access by clicking the link below"
-                    },
-                ]
-            }
-        }
-    }
+export default {
+  components: {},
+  metaInfo: {
+    title: "Home"
+  },
+  data() {
+    return {
+    };
+  }
+};
 </script>
 
-<style>
-  .home-links a {
-    margin-right: 1rem;
-  }
+<style scoped>
+u {
+  text-decoration: none;
+}
+
+.home-links a {
+  margin-right: 1rem;
+}
+
+.email {
+  color: #00aced;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  margin-left:8px;
+  font-size: 16px;
+}
+
+.author {
+  padding-top: 1rem !important;
+}
+
+.ideation-graphic {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
 </style>

@@ -7,16 +7,17 @@ import BootstrapVue from 'bootstrap-vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import { faInstagram, faTwitterSquare, faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
+import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
 import '~/assets/custom.scss'
 config.autoAddCss = false;
-library.add(faInstagram, faTwitterSquare, faFacebookSquare)
+library.add(faInstagram, faTwitterSquare, faFacebookSquare, faLongArrowAltRight);
 
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout),
-      Vue.use(BootstrapVue),
-      Vue.component('font-awesome', FontAwesomeIcon)
+  Vue.use(BootstrapVue),
+  Vue.component('font-awesome', FontAwesomeIcon)
 }

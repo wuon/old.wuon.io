@@ -1,8 +1,8 @@
 <template>
   <div class="py-5 row footer">
     <div class="col-md-2 col-6">
-      <p>
-        <b>DIRECTORY</b>
+      <p class="font-weight-bold">
+        DIRECTORY
       </p>
       <ul class="list-unstyled font-big-1-2 font-weight-light">
         <li>
@@ -23,8 +23,8 @@
       </ul>
     </div>
     <div class="col-md-2 col-6">
-      <p>
-        <b>DEVELOPMENT</b>
+      <p class="font-weight-bold">
+        DEVELOPMENT
       </p>
       <ul class="list-unstyled font-big-1-2 font-weight-light">
         <li>
@@ -39,8 +39,8 @@
       </ul>
     </div>
     <div class="col-md-2 col-6">
-      <p>
-        <b>SOCIAL</b>
+      <p class="font-weight-bold">
+        SOCIAL
       </p>
       <ul class="list-unstyled font-big-1-2 font-weight-light">
         <li>
@@ -55,13 +55,13 @@
       <div class="form-group">
         <label class="font-weight-bold">GENERAL ENQUIRIES</label>
         <h4 class="font-weight-light">
-          <a href="mailto:0x77756f6e@gmail.com">0x77756f6e@gmail.com</a>
+          <a href="mailto:wuon@protonmail.com">wuon@protonmail.com</a>
         </h4>
       </div>
     </div>
     <div class="container pt-5 text-muted small">
       With love and passion,
-      <div>0x77756f6e</div>
+      <div>wuon</div>
     </div>
   </div>
 </template>
