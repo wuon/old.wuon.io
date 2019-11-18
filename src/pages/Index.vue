@@ -15,7 +15,7 @@
           developer, and most importantly a doer.
         </p>
         <p class="font-big-1">
-          <a href="#" class="email font-weight-bold">
+          <a href="/blog" class="email font-weight-bold">
             <u>Read more</u>
             <font-awesome icon="long-arrow-alt-right" class="arrow"/>
           </a>
@@ -25,7 +25,7 @@
         <img class="ideation-graphic" src="../assets/bench.svg"/>
       </div>
     </div>
-    <div class="p-5 bg-light my-3">
+    <div class="p-5 bg-light my-3 bg-black">
       <h1
         class="serif-font-face"
       >“To try and fail is at least to learn; to fail to try is to suffer the inestimable loss of what might have been.”</h1>
@@ -85,4 +85,5 @@ u {
   display: flex;
   align-items: center;
 }
+
 </style>

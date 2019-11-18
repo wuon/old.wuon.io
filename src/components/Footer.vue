@@ -9,7 +9,7 @@
           <g-link to="/">Home</g-link>
         </li>
         <li>
-          <g-link to="/">Blog</g-link>
+          <g-link to="/blog">Blog</g-link>
         </li>
         <li>
           <g-link to="/">Projects</g-link>

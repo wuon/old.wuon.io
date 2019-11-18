@@ -1,20 +1,47 @@
 <template>
-    <div class="shadow p-5 my-3">
-        <p class="text-muted" v-html="post.date"/>
-        <g-link :to="post.path" class="read">
-            <h1 class="title serif-font-face display-4" v-html="post.title"/>
-        </g-link>
-        <p class="description" v-html="post.description"/>
-        <b>{{post.timeToRead}} min read</b> &nbsp;
-        <g-link :to="post.path" class="read">Read More...</g-link>
-    </div>
+  <div class="post">
+    <span class="text-muted" v-html="post.date" />
+    <span class="text-muted"> | {{post.timeToRead}} min read</span>
+    <h1 class="title display-4 font-weight-bold" v-html="post.title" />
+    <p class="description" v-html="post.description" />
+    <p class="font-big-1">
+      <g-link :to="post.path" class="read-more font-weight-bold">
+        <u>Read more</u>
+        <font-awesome icon="long-arrow-alt-right" class="arrow" />
+      </g-link>
+    </p>
+  </div>
 </template>
 
 <script>
-    export default {
-        name: "Post",
-        props: {
-            post: Object,
-        },
-    }
+export default {
+  name: "Post",
+  props: {
+    post: Object
+  }
+};
 </script>
+
+<style scoped>
+.post {
+  border-bottom: 1px solid #808080;
+  padding-bottom: 1rem;
+  padding-top: 3em;
+}
+
+.read-more {
+  color: #00aced;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+u {
+  text-decoration: none;
+}
+</style>

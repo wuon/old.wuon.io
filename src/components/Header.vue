@@ -13,7 +13,7 @@
             <g-link to="/">PORTFOLIO</g-link>
           </li>
           <li>
-            <g-link to="/">BLOG</g-link>
+            <g-link to="/blog">BLOG</g-link>
           </li>
           <li>
             <g-link to="/">CONTACT</g-link>

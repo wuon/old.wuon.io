@@ -7,12 +7,12 @@ import BootstrapVue from 'bootstrap-vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import { faInstagram, faTwitterSquare, faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
-import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
+import { faLongArrowAltRight, faLongArrowAltLeft } from '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
 import '~/assets/custom.scss'
 config.autoAddCss = false;
-library.add(faInstagram, faTwitterSquare, faFacebookSquare, faLongArrowAltRight);
+library.add(faInstagram, faTwitterSquare, faFacebookSquare, faLongArrowAltRight, faLongArrowAltLeft);
 
 
 export default function (Vue, { router, head, isClient }) {
