@@ -1,5 +1,5 @@
 <template>
-    <div class="card shadow border-0 my-4">
+    <div class="card border-0 my-4">
         <img class="card-img-top" :src="card.display_url" alt="Card image cap">
     </div>
 </template>

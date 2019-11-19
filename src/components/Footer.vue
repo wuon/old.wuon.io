@@ -15,7 +15,7 @@
           <g-link to="/">Projects</g-link>
         </li>
         <li>
-          <g-link to="/">Photography</g-link>
+          <g-link to="/gallery">Gallery</g-link>
         </li>
         <li>
           <g-link to="/">Contact</g-link>

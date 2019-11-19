@@ -4,19 +4,19 @@
       <div class="d-flex flex-row justify-content-between">
         <ul class="list-unstyled font-weight-bold">
           <li>
-            <g-link to="/" exact>HOME</g-link>
+            <g-link to="/" exact>Home</g-link>
           </li>
           <li>
-            <g-link to="/">ABOUT</g-link>
+            <g-link to="/blog">Blog</g-link>
           </li>
           <li>
-            <g-link to="/">PORTFOLIO</g-link>
+            <g-link to="/">Projects</g-link>
           </li>
           <li>
-            <g-link to="/blog">BLOG</g-link>
+            <g-link to="/gallery">Gallery</g-link>
           </li>
           <li>
-            <g-link to="/">CONTACT</g-link>
+            <g-link to="/">Contact</g-link>
           </li>
         </ul>
         <div class="d-flex flex-column justify-content-end">
