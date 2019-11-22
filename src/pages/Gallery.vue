@@ -2,11 +2,15 @@
   <Layout>
     <div>
       <h1 class="display-2 font-weight-bold">Gallery</h1>
-        <div>
-            <section class="card-columns">
-                <Card  v-for="edge in $page.allInstagramPhoto.edges" :key="edge.node.id" :card="edge.node"/>
-            </section>
-        </div>
+      <div>
+        <section class="card-columns">
+          <Card
+            v-for="edge in $page.allInstagramPhoto.edges"
+            :key="edge.node.id"
+            :card="edge.node"
+          />
+        </section>
+      </div>
     </div>
   </Layout>
 </template>
@@ -17,13 +21,6 @@
             edges {
                 node {
                     display_url
-                    edge_media_to_caption {
-                        edges {
-                            node {
-                                text
-                            }
-                        }
-                    }
                 }
             }
         }
@@ -31,18 +28,18 @@
 </page-query>
 
 <script>
-    import Card from "../components/gallery/Card";
-    export default {
-        components: {Card},
-        metaInfo: {
-            title: 'Gallery'
-        }
-    }
+import Card from "../components/gallery/Card";
+export default {
+  components: { Card },
+  metaInfo: {
+    title: "Gallery"
+  }
+};
 </script>
 
 <style scoped>
-    .card-columns{
-        column-count: 1;
-        -webkit-column-count: 1;
-    }
+.card-columns {
+  column-count: 1;
+  -webkit-column-count: 1;
+}
 </style>

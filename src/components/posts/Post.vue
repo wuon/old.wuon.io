@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 .post {
-  border-bottom: 1px solid #808080;
+  border-bottom: 1px solid #bfbfbf;
   padding-bottom: 1rem;
   padding-top: 3em;
 }

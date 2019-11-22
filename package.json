@@ -7,7 +7,6 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@babel/core": "^7.5.5",
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-brands-svg-icons": "^5.9.0",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
@@ -19,9 +18,11 @@
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.27",
     "gridsome": "^0.6.0",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-typer": "^1.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.7.4",
     "eslint": "^6.4.0",
     "eslint-plugin-gridsome": "^1.2.6",
     "node-sass": "^4.12.0",

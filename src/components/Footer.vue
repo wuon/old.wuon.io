@@ -18,7 +18,7 @@
           <g-link to="/gallery">Gallery</g-link>
         </li>
         <li>
-          <g-link to="/">Contact</g-link>
+          <g-link to="/contact">Contact</g-link>
         </li>
       </ul>
     </div>
