@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="d-flex flex-column justify-content-end">
+    <div class="min-vh-40 d-flex flex-column justify-content-center">
       <div class="row">
         <div class="col-md-6">
           <h1 class="display-4 font-weight-bold">Looking to collaborate?</h1>
