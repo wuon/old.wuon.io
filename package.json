@@ -18,8 +18,7 @@
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.27",
     "gridsome": "^0.6.0",
-    "vue": "^2.6.10",
-    "vue-typer": "^1.2.0"
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "@babel/core": "^7.7.4",

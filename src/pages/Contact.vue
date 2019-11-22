@@ -37,9 +37,7 @@
 </template>
 
 <script>
-import { VueTyper } from "vue-typer";
 export default {
-  components: { VueTyper },
   metaInfo: {
     title: "Contact!"
   }
