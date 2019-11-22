@@ -24,7 +24,7 @@
         </div>
       </div>
       <div>
-        <div class="w-3 border-bottom"></div>
+        <div class="w-3 mark"></div>
       </div>
     </div>
   </div>
@@ -41,9 +41,10 @@ export default {
   min-height: 10rem;
 }
 
-.border-bottom {
+.mark {
   height: 4px;
   background-color: #000000;
+  border: none;
 }
 
 a {
