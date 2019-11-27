@@ -25,6 +25,13 @@ module.exports = {
             }
         },
         {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Project',
+                path: 'blog/projects/*.md',
+            }
+        },
+        {
             use: '@zefman/gridsome-source-instagram',
             options: {
                 username: 'danielktwu', // Instagram username

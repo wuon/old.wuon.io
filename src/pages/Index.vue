@@ -38,14 +38,21 @@
         <recent-partners />
       </div>
     </div>
+    <div class="row center">
+      <div class="col-md-12">
+        <recent-projects />
+      </div>
+    </div>
   </Layout>
 </template>
 
 <script>
 import RecentPartners from "../components/home/RecentPartners.vue";
+import RecentProjects from "../components/home/RecentProjects.vue";
 export default {
   components: {
-    RecentPartners
+    RecentPartners,
+    RecentProjects
   },
   metaInfo: {
     title: "Home"
@@ -92,5 +99,4 @@ u {
   display: flex;
   align-items: center;
 }
-
 </style>
