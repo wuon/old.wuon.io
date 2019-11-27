@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="home-heading">
-      <h1 class="display-5 font-weight-bold">Previous partners</h1>
+      <h1 class="display-5 font-weight-bold">Recent partners</h1>
       <p
         class="font-big-1"
-      >Over the past couple of years, I have been incredibly fortunate to work with some amazing companies.</p>
+      >Over the past couple of years, I have been incredibly fortunate to work with some amazing people.</p>
     </div>
     <section class="company-container">
       <div class="company" v-for="edge in $static.allPartner.edges" :key="edge.node.id">
