@@ -17,6 +17,14 @@ module.exports = {
             }
         },
         {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Partner',
+                path: 'blog/partners/*.md',
+                route: '/partner/:slug',
+            }
+        },
+        {
             use: '@zefman/gridsome-source-instagram',
             options: {
                 username: 'danielktwu', // Instagram username

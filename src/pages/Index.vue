@@ -17,39 +17,46 @@
         <p class="font-big-1">
           <a href="/blog" class="email font-weight-bold">
             <u>Read more</u>
-            <font-awesome icon="long-arrow-alt-right" class="arrow"/>
+            <font-awesome icon="long-arrow-alt-right" class="arrow" />
           </a>
         </p>
       </div>
       <div class="col-md-8">
-        <img class="ideation-graphic" src="../assets/bench.svg"/>
+        <img class="ideation-graphic" src="../assets/bench.svg" />
       </div>
     </div>
-    <div class="p-5 bg-light my-3 bg-black">
+    <div class="p-5 bg-light my-4 bg-black">
       <h1
         class="serif-font-face"
       >“To try and fail is at least to learn; to fail to try is to suffer the inestimable loss of what might have been.”</h1>
-      <div class="pt-5 text-muted small author">
-        - Brian Christian, Algorithms To Live By: The Computer Science of Human Decisions
+      <div
+        class="pt-5 text-muted small author"
+      >- Brian Christian, Algorithms To Live By: The Computer Science of Human Decisions</div>
+    </div>
+    <div class="row center">
+      <div class="col-md-12">
+        <recent-partners />
       </div>
     </div>
   </Layout>
 </template>
 
 <script>
+import RecentPartners from "../components/home/RecentPartners.vue";
 export default {
-  components: {},
+  components: {
+    RecentPartners
+  },
   metaInfo: {
     title: "Home"
   },
   data() {
-    return {
-    };
+    return {};
   }
 };
 </script>
 
-<style scoped>
+<style>
 u {
   text-decoration: none;
 }
@@ -66,7 +73,7 @@ u {
 }
 
 .arrow {
-  margin-left:8px;
+  margin-left: 8px;
   font-size: 16px;
 }
 
