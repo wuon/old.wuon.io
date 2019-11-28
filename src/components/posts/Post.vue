@@ -2,7 +2,7 @@
   <div class="post">
     <span class="text-muted" v-html="post.date" />
     <span class="text-muted"> | {{post.timeToRead}} min read</span>
-    <h1 class="title display-4 font-weight-bold" v-html="post.title" />
+    <h1 class="title display-5 font-weight-bold" v-html="post.title" />
     <p class="description" v-html="post.description" />
     <p class="font-big-1">
       <g-link :to="post.path" class="read-more font-weight-bold">
@@ -34,6 +34,10 @@ export default {
   text-decoration: none;
   display: flex;
   align-items: center;
+}
+
+.description {
+  margin-bottom: 16px;
 }
 
 .arrow {

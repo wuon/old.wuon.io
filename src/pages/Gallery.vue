@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div>
-      <h1 class="display-2 font-weight-bold">Gallery</h1>
+      <h1 class="display-3 font-weight-bold">Gallery</h1>
       <div>
         <section class="card-columns">
           <Card

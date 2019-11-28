@@ -8,7 +8,7 @@
       </g-link>
     </p>
     <div class="post-title">
-      <h1 class="display-3 font-weight-bold">{{$page.post.title}}</h1>
+      <h1 class="display-4 font-weight-bold">{{$page.post.title}}</h1>
       <p class="post-date text-muted">{{ $page.post.date}} | {{$page.post.timeToRead}} min read</p>
     </div>
     <div class="post-content">
@@ -35,7 +35,16 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
+
+u {
+  text-decoration: none;
+}
+
+blockquote {
+  border-left: 3px solid #bfbfbf;
+  padding-left: 8px;
+}
 
 .go-back {
   color: #00aced;
@@ -49,8 +58,8 @@ export default {
   font-size: 16px;
 }
 
-u {
-  text-decoration: none;
+.post-content {
+  font-size: 16px;
 }
 
 </style>
