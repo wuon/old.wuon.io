@@ -55,7 +55,12 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+
+u {
+  text-decoration: none;
+}
+
 a:hover {
   text-decoration: none;
   color: #00aced;
@@ -159,4 +164,5 @@ a:hover {
     border-bottom: 1px solid #bfbfbf;
   }
 }
+
 </style>

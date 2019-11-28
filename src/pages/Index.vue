@@ -22,7 +22,7 @@
         </p>
       </div>
       <div class="col-md-8">
-        <img class="ideation-graphic" src="../assets/bench.svg" />
+        <img class="graphic" src="../assets/bench.svg" />
       </div>
     </div>
     <div class="p-5 bg-light my-4 bg-black">
@@ -63,7 +63,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 u {
   text-decoration: none;
 }
@@ -88,7 +88,7 @@ u {
   padding-top: 1rem !important;
 }
 
-.ideation-graphic {
+.graphic {
   display: block;
   margin-right: auto;
   margin-left: auto;

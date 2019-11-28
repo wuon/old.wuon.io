@@ -35,15 +35,15 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 
 u {
   text-decoration: none;
 }
 
-blockquote {
-  border-left: 3px solid #bfbfbf;
-  padding-left: 8px;
+a:hover {
+  text-decoration: none;
+  color: #00aced;
 }
 
 .go-back {

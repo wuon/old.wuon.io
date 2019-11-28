@@ -51,7 +51,11 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+u {
+  text-decoration: none;
+}
+
 a:hover {
   text-decoration: none;
   color: #00aced;

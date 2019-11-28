@@ -24,3 +24,8 @@ $link-hover-color: lighten($link-color, 50%) !default;
 .border-black {
   border-color: #000!important;
 }
+
+blockquote {
+  border-left: 3px solid #bfbfbf;
+  padding-left: 8px;
+}
