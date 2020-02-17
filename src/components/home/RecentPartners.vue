@@ -16,6 +16,7 @@
         >{{ edge.node.description }}</p>
       </div>
     </section>
+    <!--
     <div class="more">
       <p class="font-big-1">
         <a href="/blog" class="email font-weight-bold">
@@ -24,6 +25,7 @@
         </a>
       </p>
     </div>
+    -->
   </div>
 </template>
 

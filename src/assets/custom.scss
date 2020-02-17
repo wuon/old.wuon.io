@@ -26,6 +26,29 @@ $link-hover-color: lighten($link-color, 50%) !default;
 }
 
 blockquote {
-  border-left: 3px solid #bfbfbf;
-  padding-left: 8px;
+  border-left: 3px solid #222222;
+  background-color: #f2f2f2;
+  padding: 8px;
+  justify-content: center;
+  p {
+    margin-bottom: 0;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+td,th {
+  border: 1px solid #ddd;
+  padding: 8px 16px 8px 8px;
+}
+
+th {
+  font-weight: bold;
+  text-align: left;
 }

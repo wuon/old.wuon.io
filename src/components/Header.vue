@@ -10,9 +10,6 @@
             <g-link to="/blog">Blog</g-link>
           </li>
           <li>
-            <g-link to="/">Projects</g-link>
-          </li>
-          <li>
             <g-link to="/gallery">Gallery</g-link>
           </li>
           <li>
