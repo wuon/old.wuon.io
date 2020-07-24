@@ -11,9 +11,11 @@
         <li>
           <g-link to="/blog">Blog</g-link>
         </li>
+        <!--
         <li>
           <g-link to="/gallery">Gallery</g-link>
         </li>
+        -->
         <li>
           <g-link to="/contact">Contact</g-link>
         </li>
