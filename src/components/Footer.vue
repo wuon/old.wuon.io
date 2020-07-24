@@ -11,6 +11,9 @@
         <li>
           <g-link to="/blog">Blog</g-link>
         </li>
+        <li>
+          <g-link to="/projects">Projects</g-link>
+        </li>
         <!--
         <li>
           <g-link to="/gallery">Gallery</g-link>

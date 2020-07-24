@@ -29,7 +29,7 @@
   }
 </page-query>
 <script>
-import Post from "../components/posts/Post";
+import Post from "../components/post/Post";
 export default {
   components: { Post },
   metaInfo: {

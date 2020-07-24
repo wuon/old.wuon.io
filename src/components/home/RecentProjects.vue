@@ -11,7 +11,7 @@
         <span class="text-muted">{{ edge.node.date }}</span>
         <div class="title-container">
           <h1 class="title display-6 font-weight-bold">{{ edge.node.title }}</h1>
-          <a :href="edge.node.url" target="_blank" class="email font-weight-bold">
+          <a :href="edge.node.url" target="_blank" class="link icon-container font-weight-bold">
             <font-awesome icon="external-link-alt" class="external" />
           </a>
         </div>
@@ -19,35 +19,33 @@
         <p class="description">{{ edge.node.description }}</p>
       </div>
     </section>
-    <!--
     <div class="more">
       <p class="font-big-1">
-        <a href="/blog" class="email font-weight-bold">
+        <a href="/projects" class="link font-weight-bold">
           <u>View more</u>
           <font-awesome icon="long-arrow-alt-right" class="arrow" />
         </a>
       </p>
     </div>
-    -->
   </div>
 </template>
 
 <static-query>
 query {
-    allProject(sortBy: "release", order: DESC, limit: 4) {
-        totalCount
-        edges {
-            node {
-                id
-                date
-                title
-                description
-                tags
-                url
-                path
-            }
-        }
+  allProject(sortBy: "release", order: DESC, limit: 4) {
+    totalCount
+    edges {
+      node {
+        id
+        date
+        title
+        description
+        tags
+        url
+        path
+      }
     }
+  }
 }
 </static-query>
 
@@ -72,8 +70,7 @@ a:hover {
   margin: 24px 0;
 }
 
-.email {
-  color: #00aced;
+.icon-container {
   text-decoration: none;
   display: flex;
   align-items: center;

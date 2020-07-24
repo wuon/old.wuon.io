@@ -35,14 +35,16 @@
     </div>
     <div class="row center">
       <div class="col-md-12">
-        <recent-partners />
-      </div>
-    </div>
-    <div class="row center">
-      <div class="col-md-12">
         <recent-projects />
       </div>
     </div>
+    <!--
+    <div class="row center">
+      <div class="col-md-12">
+        <recent-partners />
+      </div>
+    </div>
+    -->
   </Layout>
 </template>
 
