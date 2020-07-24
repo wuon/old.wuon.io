@@ -83,7 +83,6 @@ a:hover {
 }
 
 .arrow {
-  margin-left: 8px;
   font-size: 16px;
 }
 </style>
