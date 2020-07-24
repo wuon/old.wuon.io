@@ -2,7 +2,7 @@
   <Layout>
     <div class="row center">
       <div class="col-md-4">
-        <h1 class="display-4 font-weight-bold">The story so far</h1>
+        <h1 class="display-4 font-weight-bold">The story so far 🚀</h1>
         <p class="font-big-1">
           Currently a 3rd year student with 1.5
           years of industry experience and 2 years
@@ -80,7 +80,6 @@ u {
 }
 
 .arrow {
-  margin-left: 8px;
   font-size: 16px;
 }
 

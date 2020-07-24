@@ -1,5 +1,5 @@
 ---
-title: "Patience in suffering"
+title: "A note on failure"
 description: "Failure hurts. This fall, I had an amazing opportunity to fly out and interview for Microsoft Vancouver, but unfortunately fell short."
 date: 2019-11-27
 ---

@@ -16,15 +16,15 @@
 </template>
 
 <page-query>
-    query {
-        allInstagramPhoto {
-            edges {
-                node {
-                    display_url
-                }
-            }
+  query {
+    allInstagramPhoto {
+      edges {
+        node {
+          display_url
         }
+      }
     }
+  }
 </page-query>
 
 <script>

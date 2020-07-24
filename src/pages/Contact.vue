@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-6">
           <h1 class="display-4 font-weight-bold">Looking to collaborate?</h1>
-          <p class="font-big-1">I will respond within two business days!</p>
+          <p class="font-big-1">I will be sure to respond as soon as I can 🚀</p>
         </div>
         <div class="col-md-5 offset-md-1 align-center">
           <div class="form-group">

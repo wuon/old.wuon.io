@@ -12,21 +12,21 @@
 </template>
 
 <page-query>
-    query {
-        allPost {
-            totalCount
-            edges {
-                node {
-                    id
-                    title
-                    timeToRead
-                    description
-                    date (format: "D MMMM YYYY")
-                    path
-                }
-            }
+  query {
+    allPost {
+      totalCount
+      edges {
+        node {
+          id
+          title
+          timeToRead
+          description
+          date (format: "D MMMM YYYY")
+          path
         }
+      }
     }
+  }
 </page-query>
 <script>
 import Post from "../components/posts/Post";
