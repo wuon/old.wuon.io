@@ -24,7 +24,7 @@
     "@babel/core": "^7.7.4",
     "eslint": "^6.4.0",
     "eslint-plugin-gridsome": "^1.2.6",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.1.0",
     "vue-eslint-parser": "^6.0.4"
   }
